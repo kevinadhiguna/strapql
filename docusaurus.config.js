@@ -13,7 +13,7 @@ module.exports = {
       title: 'Strapql',
       logo: {
         alt: 'Strapql Logo',
-        src: 'img/logo.svg',
+        src: 'img/strapql.png',
       },
       items: [
         {
@@ -22,7 +22,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {href: 'https://about.lovia.life/docs/engineering/graphql/', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/kevinadhiguna/strapi-graphql-documentation',
           label: 'GitHub',
