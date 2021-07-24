@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Strapql',
   tagline: 'Strapi GraphQL API documentation',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://strapql.pages.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
