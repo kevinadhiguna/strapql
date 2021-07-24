@@ -1,7 +1,7 @@
 ---
 id: doc1
-title: Login
-sidebar_label: Style Guide
+title: Introduction to Strapql
+sidebar_label: What is Strapql ?
 slug: /
 ---
 
