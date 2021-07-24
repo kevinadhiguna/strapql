@@ -51,7 +51,7 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/strapi',
             },
             {
               label: 'Discord',
