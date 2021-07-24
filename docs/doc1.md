@@ -5,7 +5,9 @@ sidebar_label: What is Strapql ?
 slug: /
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+<br/>
+Hello there, welcome to Strapi GraphQL API documentation! <br/><br/>
+Strapql is a documentation of queries and mutations that can be used within a Strapi app. This contains some of queries and mutations that hopefully helps you if you are using GraphQL API in your Strapi project :)
 
 ## Markdown Syntax
 
