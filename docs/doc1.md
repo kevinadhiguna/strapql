@@ -9,9 +9,13 @@ slug: /
 Hello there, welcome to Strapi GraphQL API documentation! <br/><br/>
 Strapql is a documentation of queries and mutations that can be used within a Strapi app. This contains some of queries and mutations that hopefully helps you if you are using GraphQL API in your Strapi project :)
 
-## Markdown Syntax
+## 🌈 Queries and Mutations
 
-To serve as an example page when styling markdown based Docusaurus sites.
+- Queries are used to read or fetch values (`READ`/`RETRIEVE`).
+- Mutations modify data in the data store and returns a value. It can be used to insert, update, or delete data (`CREATE`, `UPDATE`, and `DELETE`).
+<br/>
+
+(Source : [TutorialsPoint](https://www.tutorialspoint.com/graphql/index.htm))
 
 ## Headers
 
