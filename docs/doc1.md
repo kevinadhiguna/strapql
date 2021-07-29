@@ -17,6 +17,7 @@ Strapql is a documentation of queries and mutations that can be used within a St
 
 (Source : [TutorialsPoint](https://www.tutorialspoint.com/graphql/index.htm))
 
+<!--
 ## Headers
 
 # H1 - Create the best documentation
@@ -207,3 +208,4 @@ This is a caution
 This is a warning
 
 :::
+-->
