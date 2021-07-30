@@ -1,6 +1,6 @@
 ---
 id: doc2
-title: Register
+title: Register and Login
 ---
 
 Just like any other applications that requires you to create an account, you have to sign up first to create a user in `users` collection type that comes default in Strapi. Here is how to register an account :
@@ -28,3 +28,36 @@ Next, put your `username`, `email`, and `password` as variables :
 ```
 
 Finally, a JWT shows in response.
+
+## 🔒 Login
+
+```graphql
+mutation Login($input: UsersPermissionsLoginInput!) {
+  login(input: $input) {
+    jwt
+    user {
+      username
+      email
+      confirmed
+      blocked
+      role {
+        id
+        name
+        description
+        type
+      }
+    }
+  }
+}
+```
+
+Then enter your `identifier` and `password` as variables :
+```json
+{
+  "input": {
+    "identifier": "YOUR_USERNAME OR YOUR EMAIL",
+    "password": "YOUR_PASSWORD"
+  }
+}
+```
+Eventually, you will get JWT in response.
