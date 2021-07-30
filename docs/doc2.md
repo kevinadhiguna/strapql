@@ -3,6 +3,8 @@ id: doc2
 title: Register and Login
 ---
 
+## ®️ Register
+
 Just like any other applications that requires you to create an account, you have to sign up first to create a user in `users` collection type that comes default in Strapi. Here is how to register an account :
 ```graphql
 mutation Register($input: UsersPermissionsRegisterInput!) {
