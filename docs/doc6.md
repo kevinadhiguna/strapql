@@ -1,9 +1,7 @@
 ---
 id: doc6
-title: Retrieve/Fetch all Users
+title: 👥 Retrieve/Fetch all Users
 ---
-
-## 👥 Retrieve/Fetch all Users
 
 If you want to get all users in your Strapi app, this is the query you are looking for : 
 ```graphql

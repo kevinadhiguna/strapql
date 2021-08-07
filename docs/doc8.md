@@ -1,9 +1,7 @@
 ---
 id: doc8
-title: Delete/Remove a User
+title: ❌ Delete/Remove a User
 ---
-
-## ❌ Delete/Remove a User
 
 >A user decided to no longer use my app. How do I remove him/her?
 

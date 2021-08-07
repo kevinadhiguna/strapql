@@ -3,8 +3,6 @@ id: doc4
 title: Create a User
 ---
 
-## 🆕 Create a User in Users (a collection type that comes default in Strapi app)
-
 <!-- Need refactoring the table
 
 > What? Create a User? Didn't I just create a User using `Registration` mutation ?

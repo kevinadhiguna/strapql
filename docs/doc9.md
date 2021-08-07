@@ -1,9 +1,7 @@
 ---
 id: doc9
-title: Create an Entry in a Collection Type
+title: 🆕 Create an Entry in a Collection Type
 ---
-
-## 🆕 Create an Entry in a Collection Type
 
 For example, Juventus FC buys a new player. Here is how you can add a new record inside it :
 ```graphql

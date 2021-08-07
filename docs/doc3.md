@@ -1,9 +1,7 @@
 ---
 id: doc3
-title: Me Query
+title: 🙋 Me Query
 ---
-
-## 🙋 Me Query
 
 To identify current user, you can use `me` query, like this :
 ```graphql

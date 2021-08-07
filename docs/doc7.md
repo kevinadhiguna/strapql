@@ -1,9 +1,7 @@
 ---
 id: doc7
-title: Update a User
+title: 🔄 Update a User
 ---
-
-## 🔄 Update a User
 
 Imagine you want to change a user's email. To do such things, you should use a mutation which updates the user's data. Here is an example to change a user's email :
 ```graphql
