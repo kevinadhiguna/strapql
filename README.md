@@ -40,6 +40,18 @@ yarn start
 
 This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
+To check code format using Prettier:
+
+```console
+yarn prettier --check .
+```
+
+To format code using Prettier:
+
+```console
+yarn prettier --write .
+```
+
 ## Build
 
 ```console
