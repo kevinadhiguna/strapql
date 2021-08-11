@@ -1,3 +1,9 @@
 # Ignore artifacts:
 build
 coverage
+
+.docusaurus
+babel.config.js
+docusaurus.config.js
+static
+template.md
