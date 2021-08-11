@@ -31,6 +31,7 @@ mutation UpdateSingleJuventusPlayer($input: updateJuventusInput) {
 ```
 
 You may change the variable like this :
+
 ```json
 {
   "input": {
@@ -46,9 +47,10 @@ You may change the variable like this :
 }
 ```
 
-In the example above, you are changing three fields. However, you can change only one field as well.  
+In the example above, you are changing three fields. However, you can change only one field as well.
 
 Pretend that a player scored 3 goals in 17 appearences throughout a season. With that being said, minutes the player has played raised to 1381 minutes. You may want to do :
+
 ```json
 {
   "input": {
@@ -65,6 +67,7 @@ Pretend that a player scored 3 goals in 17 appearences throughout a season. With
 ```
 
 The response should include the fields with the updated value :
+
 ```json
 {
   "data": {

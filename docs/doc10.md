@@ -4,6 +4,7 @@ title: 📮 Fetch/Retrieve a single entry in collection type
 ---
 
 To fetch an entry in your collection type, this query is probably able help you :
+
 ```graphql
 query FetchSingleJuventusPlayer($id: ID!) {
   juventus(id: $id) {
@@ -27,10 +28,10 @@ query FetchSingleJuventusPlayer($id: ID!) {
     published_at
   }
 }
-
 ```
 
 Pass the ID of the record/entry you want to fetch :
+
 ```json
 {
   "id": "ID_OF_ENTRY"
@@ -38,6 +39,7 @@ Pass the ID of the record/entry you want to fetch :
 ```
 
 To illustrate :
+
 ```json
 {
   "id": "60df54f39bc9f96f94bd7db5"
@@ -45,6 +47,7 @@ To illustrate :
 ```
 
 The response would be like :
+
 ```json
 {
   "data": {

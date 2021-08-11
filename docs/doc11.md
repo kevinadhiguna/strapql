@@ -4,6 +4,7 @@ title: 📒 Fetch/Retrieve all entries in collection type
 ---
 
 This may get you all the entries in your collection type :
+
 ```graphql
 query FetchAllJuventusPlayers {
   juventuses {

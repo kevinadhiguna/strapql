@@ -3,9 +3,10 @@ id: doc8
 title: ❌ Delete/Remove a User
 ---
 
->A user decided to no longer use my app. How do I remove him/her?
+> A user decided to no longer use my app. How do I remove him/her?
 
 Here is a mutation that might do the task :
+
 ```graphql
 mutation deleteUser($input: deleteUserInput) {
   deleteUser(input: $input) {
@@ -27,6 +28,7 @@ mutation deleteUser($input: deleteUserInput) {
 ```
 
 Place the user ID of the user you want to remove as a variable :
+
 ```json
 {
   "input": {

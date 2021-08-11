@@ -32,6 +32,7 @@ mutation removeSingleJuventusPlayer($input: deleteJuventusInput) {
 ```
 
 Variables :
+
 ```json
 {
   "input": {
@@ -43,6 +44,7 @@ Variables :
 ```
 
 To give you an idea, let's say a player is transferred to another football club. We pass the player's id as a variable this :
+
 ```json
 {
   "input": {
@@ -53,7 +55,8 @@ To give you an idea, let's say a player is transferred to another football club.
 }
 ```
 
-After removed the player successfully, Strapi will send a response like this: 
+After removed the player successfully, Strapi will send a response like this:
+
 ```json
 {
   "data": {

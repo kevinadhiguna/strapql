@@ -6,6 +6,7 @@ title: Register and Login
 ## ®️ Register
 
 Just like any other applications that requires you to create an account, you have to sign up first to create a user in `users` collection type that comes default in Strapi. Here is how to register an account :
+
 ```graphql
 mutation Register($input: UsersPermissionsRegisterInput!) {
   register(input: $input) {
@@ -19,6 +20,7 @@ mutation Register($input: UsersPermissionsRegisterInput!) {
 ```
 
 Next, put your `username`, `email`, and `password` as variables :
+
 ```json
 {
   "input": {
@@ -54,6 +56,7 @@ mutation Login($input: UsersPermissionsLoginInput!) {
 ```
 
 Then enter your `identifier` and `password` as variables :
+
 ```json
 {
   "input": {
@@ -62,4 +65,5 @@ Then enter your `identifier` and `password` as variables :
   }
 }
 ```
+
 Eventually, you will get JWT in response.

@@ -4,6 +4,7 @@ title: 🙋 Me Query
 ---
 
 To identify current user, you can use `me` query, like this :
+
 ```graphql
 query MeQuery {
   me {
@@ -21,6 +22,7 @@ query MeQuery {
   }
 }
 ```
+
 <b>Note : `me` query requires JWT attached in headers!</b>
 
 ### 📎 How to attach JWT in headers :

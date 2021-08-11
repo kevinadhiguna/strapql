@@ -13,7 +13,7 @@ Strapql is a documentation of queries and mutations that can be used within a St
 
 - Queries are used to read or fetch values (`READ`/`RETRIEVE`).
 - Mutations modify data in the data store and returns a value. It can be used to insert, update, or delete data (`CREATE`, `UPDATE`, and `DELETE`).
-<br/>
+  <br/>
 
 (Source : [TutorialsPoint](https://www.tutorialspoint.com/graphql/index.htm))
 

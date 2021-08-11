@@ -52,6 +52,7 @@ mutation CreateUser($input: createUserInput) {
 ```
 
 Pass these variables :
+
 ```json
 {
   "input": {
@@ -63,9 +64,9 @@ Pass these variables :
   }
 }
 ```
+
 <b>Note : Please attach a JWT in Headers, usually Superadmin's JWT.</b>
 
 ### 🔑 How to get Superadmin's JWT
 
 Go to `Documentation` in the menu on the left side -> Copy the token in `Retrieve your jwt token`.
-

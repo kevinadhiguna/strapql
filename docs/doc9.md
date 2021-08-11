@@ -4,6 +4,7 @@ title: 🆕 Create an Entry in a Collection Type
 ---
 
 For example, Juventus FC buys a new player. Here is how you can add a new record inside it :
+
 ```graphql
 mutation AddSingleJuventusPlayer($input: createJuventusInput) {
   createJuventus(input: $input) {
@@ -27,6 +28,7 @@ mutation AddSingleJuventusPlayer($input: createJuventusInput) {
 ```
 
 Here are variables you should pass :
+
 ```json
 {
   "input": {
@@ -45,6 +47,7 @@ Here are variables you should pass :
 ```
 
 For instance :
+
 ```json
 {
   "input": {
@@ -63,6 +66,7 @@ For instance :
 ```
 
 You will see a response like this if successful:
+
 ```json
 {
   "data": {
