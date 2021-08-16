@@ -18,6 +18,7 @@ module.exports = {
       "doc15",
       "doc16",
       "doc17",
+      "doc18",
     ],
     Features: ["mdx"],
   },
