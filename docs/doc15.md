@@ -3,9 +3,10 @@ id: doc15
 title: 📤 🖼️ Upload a single image in separate fields
 ---
 
->Hmm... but how do I upload a single image to several fields in a single request?
+> Hmm... but how do I upload a single image to several fields in a single request?
 
 All right, imagine you created a collection type which has several fields, including `cardImage`, `facePhoto`, and `personWithCardPhoto`. Otherwise, just replace those fields with yours. Ok, here we go :
+
 ```graphql
 mutation UploadSingleImageToSeveralFields(
   $ref: String
@@ -81,6 +82,7 @@ mutation UploadSingleImageToSeveralFields(
 ```
 
 Variables :
+
 ```json
 {
   "ref": "YOUR_COLLECTION_TYPE_NAME",

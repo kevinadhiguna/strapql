@@ -4,6 +4,7 @@ title: 👨‍💻 👨‍💼 Fetch all roles
 ---
 
 Below is the query to get all roles :
+
 ```graphql
 query FetchRoles {
   roles {

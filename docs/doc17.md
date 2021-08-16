@@ -4,6 +4,7 @@ title: 👨‍💻 Fetch a single role
 ---
 
 Here is the query to display a single role :
+
 ```graphql
 query fetchSingleRole($id: ID!) {
   role(id: $id) {
@@ -40,6 +41,7 @@ query fetchSingleRole($id: ID!) {
 ```
 
 Variable :
+
 ```json
 {
   "id": "ROLE_ID"
