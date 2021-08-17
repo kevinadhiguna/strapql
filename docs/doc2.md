@@ -1,6 +1,6 @@
 ---
 id: doc2
-title: Register and Login
+title: 🔒 Register and Login
 ---
 
 ## ®️ Register
