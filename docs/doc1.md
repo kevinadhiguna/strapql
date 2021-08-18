@@ -17,6 +17,20 @@ Strapql is a documentation of queries and mutations that can be used within a St
 
 (Source : [TutorialsPoint](https://www.tutorialspoint.com/graphql/index.htm))
 
+## 📚 Prerequisites
+
+Before jumping into the docs, please make sure you have installed the GraphQL plugin in your Strapi app.
+
+```console
+yarn strapi install graphql
+```
+
+or
+
+```console
+npm run strapi install graphql
+```
+
 <!--
 ## Headers
 
