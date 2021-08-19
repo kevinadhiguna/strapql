@@ -19,7 +19,21 @@ Strapql is a documentation of queries and mutations that can be used within a St
 
 ## 📚 Prerequisites
 
-Before jumping into the docs, please make sure you have installed the GraphQL plugin in your Strapi app.
+Before jumping into the docs, please make sure you have created a Strapi app :
+
+```console
+yarn create strapi-app my-strapi-app
+```
+
+or
+
+```console
+npm create-strapi-app my-strapi-app
+```
+
+The commands above will create a Strapi app named `my-strapi-app`. Feel free to replace that with your project name or anything you want.<br/>
+
+Then please install the GraphQL plugin in your Strapi app.
 
 ```console
 yarn strapi install graphql
@@ -30,6 +44,9 @@ or
 ```console
 npm run strapi install graphql
 ```
+
+Having installed the GraphQL plugin, you can verify the installation by visiting [http://localhost:1337/graphql](http://localhost:1337/graphql), assuming that your Strapi app is running.<br/>
+You should see a GraphQL Playground in which you can test GraphQL queries and mutations !
 
 <!--
 ## Headers
