@@ -37,13 +37,13 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Get Started',
               to: 'docs/',
             },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
+            // {
+            //   label: 'Second Doc',
+            //   to: 'docs/doc2/',
+            // },
           ],
         },
         {
@@ -55,11 +55,11 @@ module.exports = {
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.strapi.io',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/strapijs',
             },
           ],
         },
@@ -68,7 +68,7 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: 'blog',
+              href: 'https://about.lovia.life/docs/engineering/graphql/',
             },
             {
               label: 'GitHub',
@@ -77,7 +77,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Strapql, Inc. Built with ❤️ by kevin.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Strapql, Built with ❤️ by kevin.`,
     },
   },
   presets: [
