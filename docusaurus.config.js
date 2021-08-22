@@ -50,12 +50,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/strapi',
-            },
-            {
               label: 'Discord',
               href: 'https://discord.strapi.io',
+            },
+            {
+              label: 'Strapi Forum',
+              href: 'https://forum.strapi.io',
+            },
+            {
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/strapi',
             },
             {
               label: 'Twitter',
