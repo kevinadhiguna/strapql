@@ -58,6 +58,10 @@ module.exports = {
               href: 'https://forum.strapi.io',
             },
             {
+              label: 'YouTube',
+              href: 'https://youtube.com/strapi',
+            },
+            {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/strapi',
             },
