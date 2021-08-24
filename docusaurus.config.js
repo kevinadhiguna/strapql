@@ -96,7 +96,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/kevinadhiguna/strapi-graphql-documentation',
+            'https://github.com/kevinadhiguna/strapql',
         },
         blog: {
           showReadingTime: true,
