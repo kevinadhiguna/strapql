@@ -10,11 +10,7 @@ const features = [
   {
     title: "Easy to Use",
     imageUrl: "img/undraw_docusaurus_mountain.svg",
-    description: (
-      <>
-        Strapql is focused on GraphQL queries and mutations.
-      </>
-    ),
+    description: <>Strapql is focused on GraphQL queries and mutations.</>,
   },
   {
     title: "Focus on What Matters",
