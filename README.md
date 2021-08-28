@@ -17,7 +17,7 @@
 </div>
 <br/><br/>
 
-🚧 Currently under development... <br/>
+🚧 Currently under development... you can visit https://strapql.pages.dev to see it.<br/>
 💖 PRs are very much appreciated :)
 <br/>
 <br />
