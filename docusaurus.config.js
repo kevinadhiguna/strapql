@@ -76,7 +76,7 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              href: 'https://about.lovia.life/docs/engineering/graphql/',
+              href: 'https://about.lovia.life/docs/engineering/graphql/strapi-graphql-documentation/',
             },
             {
               label: 'GitHub',
