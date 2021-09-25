@@ -1,6 +1,6 @@
 # Reference: https://v1.docusaurus.io/docs/en/docker
 
-version: '3'
+version: "3"
 
 services:
   docusaurus:
