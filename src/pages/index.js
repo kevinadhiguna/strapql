@@ -55,7 +55,8 @@ function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      // description="Description will go into a meta tag in <head />"
+      description="strapi graphql documentation, strapi graphql docs, strapi, graphql, documentation, strapql,"
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
