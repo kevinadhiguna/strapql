@@ -5,6 +5,8 @@ COPY yarn.lock .
 
 RUN yarn --frozen-lockfile
 
+COPY . .
+
 RUN yarn build
 
 EXPOSE 3000
