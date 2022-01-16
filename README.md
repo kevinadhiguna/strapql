@@ -77,6 +77,8 @@ This command generates static content into the `build` directory and can be serv
 docker-compose up
 ```
 
+It will be live on http://localhost:3000.
+
 <br />
 
 To stop the app, run :
