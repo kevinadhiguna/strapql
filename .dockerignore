@@ -1,2 +1,6 @@
 ### Dependency ###
 node_modules
+
+### Git ###
+.git
+.gitignore
