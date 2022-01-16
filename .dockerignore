@@ -9,6 +9,8 @@ node_modules
 .prettierignore
 .prettierrc.json
 
-
 ### Documentation ###
 README.md
+
+### GitHub workflows ###
+.github
