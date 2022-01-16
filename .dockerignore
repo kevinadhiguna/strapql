@@ -14,3 +14,7 @@ README.md
 
 ### GitHub workflows ###
 .github
+
+### docker-compose ###
+docker-compose.yml
+docker-compose.yaml
