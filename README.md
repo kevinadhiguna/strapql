@@ -15,22 +15,29 @@
     -->
   </p>
 </div>
-<br/><br/>
+
+<br />
+<br />
 
 🚧 Currently under development... you can visit https://strapql.pages.dev to see it.<br/>
 💖 PRs are very much appreciated :)
-<br/>
+
+<br />
+<br />
+
+This website is built using Docusaurus 2 (https://v2.docusaurus.io/), a modern static website generator.
 <br />
 Please visit [Strapi GraphQL Docs](https://github.com/kevinadhiguna/strapi-graphql-documentation) for more, thank you!
 
 <br />
-This website is built using Docusaurus 2 (https://v2.docusaurus.io/), a modern static website generator.
 
 ## Installation
 
 ```console
 yarn install
 ```
+
+<br />
 
 ## Local Development
 
@@ -52,6 +59,8 @@ To format code using Prettier:
 yarn prettier --write .
 ```
 
+<br />
+
 ## Build
 
 ```console
@@ -59,6 +68,8 @@ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+<br />
 
 ## How to run using Docker
 
