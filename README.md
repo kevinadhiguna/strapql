@@ -71,9 +71,18 @@ This command generates static content into the `build` directory and can be serv
 
 <br />
 
-## How to run using Docker
+## How to run using docker-compose
 
-Coming soon...
+```bash
+docker-compose up
+```
+
+<br />
+
+To stop the app, run :
+```bash
+docker-compose down
+```
 
 <br />
 
