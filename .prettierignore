@@ -7,3 +7,8 @@ babel.config.js
 docusaurus.config.js
 static
 template.md
+
+# Dependency
+node_modlues/
+package.json
+package-lock.json
