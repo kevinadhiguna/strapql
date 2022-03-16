@@ -1,7 +1,8 @@
 {
   "name": "strapql",
   "version": "0.0.0",
-  "private": true,
+  "private": "false",
+  "author": "kevin <hi.kevinadhiguna@gmail.com> (https://github.com/kevinadhiguna)",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
