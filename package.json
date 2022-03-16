@@ -11,7 +11,8 @@
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
-    "check": "prettier --check \"./**/*.{js,jsx,json}\""
+    "check": "prettier --check \"./**/*.{js,jsx,json}\"",
+    "format": "prettier --write \"./**/*.{js,jsx,json}\""
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.70",
