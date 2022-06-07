@@ -54,9 +54,9 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      // title={``} // <- Being commented because otherwise the title would be "Strapql | Strapql" instead of "Strapql".
       // description="Description will go into a meta tag in <head />"
-      description="strapi graphql documentation, strapi graphql docs, strapi, graphql, documentation, strapql,"
+      description="Strapql is a strapi graphql documentation website"
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
