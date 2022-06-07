@@ -9,6 +9,10 @@ module.exports = {
   organizationName: 'kevinadhiguna', // Usually your GitHub org/user name.
   projectName: 'strapql', // Usually your repo name.
   themeConfig: {
+    // Dark/Light theme: https://docusaurus.io/docs/api/themes/configuration#color-mode---dark-mode
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: 'Strapql',
       logo: {
