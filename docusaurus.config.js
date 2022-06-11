@@ -12,6 +12,7 @@ module.exports = {
     // Dark/Light theme: https://docusaurus.io/docs/api/themes/configuration#color-mode---dark-mode
     colorMode: {
       defaultMode: 'dark',
+      disableSwitch: false,
     },
     navbar: {
       title: 'Strapql',
